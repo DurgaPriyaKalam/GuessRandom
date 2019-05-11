@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         {
             message="You got it!Try again.";
         }
-        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show() ;
         Log.i("Entered Value",editText.getText().toString());
         Log.i("Random Number",Integer.toString(randomNumber));
     }
